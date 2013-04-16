@@ -64,7 +64,7 @@
 			star[i][4]=0;
 			}
 		var starfield=$i('starfield');
-		starfield.style.position='absolute';
+		starfield.style.position='fixed';
 		starfield.width=w;
 		starfield.height=h;
 		context=starfield.getContext('2d');
