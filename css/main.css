@@ -1,0 +1,96 @@
+body {
+  background: url('../images/bg.jpg');
+  font-family: PT_MONO;
+}
+
+@font-face {
+  font-family: PT_MONO;
+  src: url('PT_MONO/PTM55FT.ttf');
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #333;
+  text-shadow: #222 0px 1px 2px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  min-height: 1815px;
+  max-height: 1815px;
+  margin: 30px auto;
+  background: url('../images/paper.jpg');
+  background-size: 100% 100%;
+  padding: 30px 100px;
+  position: relative;
+  transform: rotateZ(-4deg);
+}
+
+.container__title {
+  color: #333;
+  font-weight: bold;
+  text-shadow: #222 0px 1px 2px;
+}
+
+.container__title span {
+  font-size: 0.6em;
+}
+
+.container__photo {
+  background: url('../images/polaroid.png');
+  background-size: 100% 100%;
+  width: 442px;
+  height: 500px;
+  position: absolute;
+  top: -55px;
+  right: -0px;
+  padding: 10px;
+}
+
+.container__photo img {
+  margin: 63px 0 0 84px;
+  width: 285px;
+  height: 300px;
+  transform: rotateZ(-3deg);
+}
+
+.info a,
+.projects a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #900;
+}
+
+.employment,
+.education,
+.projects {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 15px 0;
+  color: #333;
+  text-shadow: #222 0px 1px 2px;
+}
+
+.employment li span,
+.education li span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.classified {
+  color: #c00;
+  font-size: 7.5em;
+  font-weight: bold;
+  transform: rotateZ(-15deg);
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
