@@ -112,4 +112,10 @@ p {
   p {
     font-size:0.5em;  
   }
+  
+  .employment,
+  .education,
+  .projects {
+    font-size:0.5em;
+  }
 }
