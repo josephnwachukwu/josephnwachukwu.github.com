@@ -38,16 +38,7 @@ p {
   text-shadow: #222 0px 1px 2px;
 }
 
-@media all and (max-width: 1000px) {
-  .classified {
-    left: 10%;
-    top: 25%
-  }
 
-  .container {
-    width: 90%;
-  }
-}
 
 .container__title span {
   font-size: 0.6em;
@@ -104,4 +95,16 @@ p {
   left: 20%;
   opacity: 0.5;
   text-transform: uppercase;
+}
+
+
+@media all and (max-width: 1000px) {
+  .classified {
+    left: 10%;
+    top: 25%
+  }
+
+  .container {
+    width: 90%;
+  }
 }
