@@ -107,6 +107,7 @@ p {
 
   .container {
     width: 90%;
+    min-height:980px;
   }
   
   p {
