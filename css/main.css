@@ -126,18 +126,18 @@ p {
   }
   
   .container__photo {
-  width: 221px;
-  height: 250px;
+  width: 165.75px;
+  height: 187.5px;
   position: absolute;
   top: -55px;
   right: -0px;
-  padding: 5px;
+  padding: 3.75px;
 }
 
 .container__photo img {
-  margin: 31px 0 0 42px;
-  width: 142px;
-  height: 150px;
+  margin: 23.25px 0 0 31.5px;
+  width: 106.5px;
+  height: 112.5px;
   transform: rotateZ(-3deg);
 }
 }
