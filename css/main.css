@@ -118,4 +118,8 @@ p {
   .projects {
     font-size:0.5em;
   }
+  
+  h1 {
+    font-size: 1em;
+  }
 }
