@@ -38,7 +38,7 @@ p {
   text-shadow: #222 0px 1px 2px;
 }
 
-@media screen and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
   .classified {
     left: 10%;
     top: 25%
