@@ -101,7 +101,8 @@ p {
 @media all and (max-width: 1000px) {
   .classified {
     left: 10%;
-    top: 25%
+    top: 25%;
+    font-size:3.5em;
   }
 
   .container {
