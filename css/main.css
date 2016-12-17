@@ -107,4 +107,8 @@ p {
   .container {
     width: 90%;
   }
+  
+  p {
+    font-size:0.5em;  
+  }
 }
