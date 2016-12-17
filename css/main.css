@@ -100,7 +100,7 @@ p {
   transform: rotateZ(-15deg);
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 20%;
   opacity: 0.5;
   text-transform: uppercase;
 }
